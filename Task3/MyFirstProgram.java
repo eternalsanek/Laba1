@@ -9,7 +9,7 @@ class MyFirstClass {
                 		o.setFirst(i);   
                 		o.setSecond(j);  
                 		System.out.print(o.mod()); 
-				System.out.print(" ");
+						System.out.print(" ");
             		}
             		System.out.println();
         	}
@@ -24,22 +24,22 @@ class MySecondClass {
 
 	public int getFirst() {
         	return first;
-    	}
+    }
 
-    	public int getSecond() {
-        	return second;
-    	}
+    public int getSecond() {
+        return second;
+    }
 
-    	public void setFirst(int a) {
-     	   first = a;
-    	}
+    public void setFirst(int a) {
+     	first = a;
+    }
 
-    	public void setSecond(int b) {
-    	    second = b;
-    	}
+    public void setSecond(int b) {
+    	second = b;
+    }
 
 	public int mod() {
         	if (second == 0) return 0;
         	return first % second;
-    	}
+    }
 }
